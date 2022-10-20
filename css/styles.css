@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+:root{
+    --facebook: #3b5999;
+    --instagram: #e4405f;
+    --twitter: #55acee;
+}
+
 /* PÁGINA INDEX*/
 
 /* HEADER INICIO */
@@ -321,6 +327,23 @@ span{
         font-family: Cinzel, serif;
         font-size: 1.5em;
     }
+
+    .nombre{
+        font-family: Cinzel, serif;
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+        flex-direction: row;
+        color: white;
+        font-size: 1.5rem;
+    }
+    
+    .subTitulo{
+        font-family: Cinzel, serif;
+        display: flex;
+        color: white;
+        font-size: 1rem;
+    }
 }
 
 /* PÁGINA INDEX*/
@@ -350,10 +373,14 @@ span{
 }
 
 .contacto__img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
     width: 100%;
 }
 
 .contacto__parte-derecha{
+    margin-left: 20px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
