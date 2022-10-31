@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 
-:root{
-    --facebook: #3b5999;
-    --instagram: #e4405f;
-    --twitter: #55acee;
-}
-
 /* PÁGINA INDEX*/
 
 /* HEADER INICIO */
@@ -350,7 +344,7 @@ span{
 
 /* PÁGINA CONTACTO */
 
-.header__contacto{
+.header__pag{
     background-color: #2c2b2b;
 }
 
@@ -552,5 +546,18 @@ span{
     }
 }
 /* PÁGINA CONTACTO */
+
+/* PÁGINAS */
+
+.header__pag{
+    background-color: #2c2b2b;
+}
+
+.header__pag > .header__li{
+    font-family: Cinzel, serif;
+}
+
+/* PÁGINAS */
+
 
 
