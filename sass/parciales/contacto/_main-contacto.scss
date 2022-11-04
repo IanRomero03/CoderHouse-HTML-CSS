@@ -1,0 +1,98 @@
+.contacto{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(64, 64, 64);
+    &__img-wrap{
+        height: 100%;
+        width: 50%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__img{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        width: 100%;
+    }
+    &__parte-derecha{
+        margin-left: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        padding:0 7.3% 0 4.7%;
+        width: 50%;
+    }
+    &__title{
+        font-size: 100px;
+        font-family: Cinzel, serif;
+        font-weight: 400;
+        margin-bottom: 70px;
+        text-transform: uppercase;
+        color: rgb(221, 221, 221);
+    }
+    &__form, &__input-linea{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 100%;
+    }
+    &__input-linea{
+        margin-bottom: 45px;
+    }
+    &__label{
+        font-size: 18px;
+        font-weight: 600;
+        color: rgb(174, 174, 174);
+    }
+    &__input{
+        height: 30px;
+        outline: none;
+        padding: 5px 0;
+        border-bottom: 2px solid #f9f9f9;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 100%;
+        color: #ffffff;
+        background-color: transparent;
+    }
+    &__textarea{
+        height: 100px;
+        outline: none;
+        padding: 5px 0;
+        border-bottom: 2px solid #ffffff;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        width: 100%;
+        color: #ffffff;
+        resize: none;
+        background-color: transparent;
+    }
+    &__submit{
+        margin-top: 20px;
+        padding: 18px 55px;
+        background-color: #ffffff;
+        border-radius: 50px;
+        color: #000000;
+        font-weight: 600;
+        border: none;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    &__submit:hover{
+        background-color: #acacac;
+    }  
+}
+
+
+
+
+

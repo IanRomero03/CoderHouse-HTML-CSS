@@ -1,0 +1,11 @@
+.header__pag{
+    margin-bottom: 100px;
+    .header__title{
+        display: flex;
+        flex-direction: column;
+        span{
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

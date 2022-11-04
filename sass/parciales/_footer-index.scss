@@ -1,0 +1,62 @@
+.footer{
+    &__ti{
+        background-color: rgb(64, 64, 64);
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 1fr 1fr;
+    }
+    &__info{
+        grid-column: 1 / 7;
+        margin-top: 100px;
+        background-color: #2c2b2b;
+        height: 410px;
+        .nombre{
+            font-family: Cinzel, serif;
+            display: flex;
+            justify-content: center;
+            margin-top: 60px;
+            flex-direction: row;
+            color: white;
+            font-size: 2rem;
+        }
+        .subTitulo{
+        font-family: Cinzel, serif;
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 1.5rem;
+        }
+    }
+    &__contacto-btn{
+        display: flex;
+        justify-content: center;
+        margin-top: 200px;
+    }
+    &__a{
+        font-family: Cinzel, serif;
+        color: white;
+    }
+    &__img{
+        background-image: url(../img/751911.jpg);
+        background-position: center;
+        grid-column: 1 / 7;
+        height: 70vh;
+        background-size: cover;
+        overflow: hidden;
+        .copy{
+            display: flex;
+            justify-content: center;
+            color: white;
+            margin-top: 33rem;
+            font-size: 1em;
+        }
+    }
+}
+
+
+
+
+
+
+
+

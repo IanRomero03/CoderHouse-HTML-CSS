@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{  
+    font-family: Cinzel, serif;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+a:hover{
+    color: white;
+}
+
+.header{
+    background-image: url(../img/img-figma.jpg);
+    background-size: cover;
+    height: 80vh;
+    overflow: hidden;
+    
+    &__ul{
+            display: flex;
+            justify-content: center;
+        }
+    &__li{
+        margin: 20px 15px 20px 15px;
+        list-style: none;
+    }
+    .logo{
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__logo{
+        font-family: Cinzel, serif;
+        font-size: 3em;
+        span{
+            font-size: 0.7em;
+            display: flex;
+            justify-content: center;
+        }
+    &__logo:hover{
+        background-color: white;
+    }
+}
+}
+
+
+

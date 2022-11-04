@@ -1,0 +1,11 @@
+.header__con{
+    margin-bottom: 75px;
+    .header__title{
+        display: flex;
+        flex-direction: column;
+        span{
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
