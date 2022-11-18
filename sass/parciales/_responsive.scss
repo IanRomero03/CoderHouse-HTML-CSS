@@ -27,14 +27,14 @@
             align-items: center;
         }
         .logo{
-            height: 30vh;
+            height: 80vh;
             display: flex;
             justify-content: center;
             align-items: center;
         }
         &__logo{
             font-family: Cinzel, serif;
-            font-size: 2em;
+            font-size: 2.5em;
         }
     }
     a{
@@ -97,13 +97,19 @@
                 }
             }
         }
+    } 
+    .header{
+        &__logo{
+            font-family: Cinzel, serif;
+            font-size: 2em;
+        }
     }
 }
 
 @media screen and (max-width: 390px) {
     .header__logo{
         font-family: Cinzel, serif;
-        font-size: 1.5em;
+        font-size: 1.7em;
     }
     .nombre{
         font-family: Cinzel, serif;
